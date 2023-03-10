@@ -32,3 +32,34 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
+/* cards */
+
+/* dimension */
+.fizzbuzz, .fizz, .buzz, .number{
+    width: 20px;
+    height: 20px;
+}
+
+/* fizzbuzz */
+.fizzbuzz{
+    background-color: var(--bg-fizzbuzz);
+    color: var(--light);
+}
+
+/* fizz */
+.fizz{
+    background-color: var(--bg-fizz);
+    color: var(--light);
+}
+
+/* buzz */
+.buzz{
+    background-color: var(--bg-buzz);
+    color: var(--light);
+}
+
+.number{
+    background-color: var(--bg-numbers);
+    color: var(--light);
+}
