@@ -21,7 +21,7 @@
 
 /* box */
 .box{
-    max-width: 500px;
+    max-width: 1000px;
     outline: 1px solid red;
     padding: 2rem;
     margin: 0 auto;
