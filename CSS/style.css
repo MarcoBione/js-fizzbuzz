@@ -16,12 +16,14 @@
     background-color: var(--bg-wrapper);
     background-image: url(../Assets/pngwingoriginal.png);
     background-size: contain;
-    overflow: hidden;
+    background-position: center;
+    overflow-y: hidden;
 }
 
 /* box */
 .box{
-    max-width: 1000px;
+    max-width: 1250px;
+    height: 90vh;
     /* outline: 1px solid red; */
     padding: 2rem;
     margin: 0 auto;
@@ -31,6 +33,8 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow-y: auto;
+    margin-top: 50px;
 }
 
 /* cards */
@@ -64,3 +68,25 @@
     background-color: var(--bg-numbers);
     color: var(--light);
 }
+
+/* custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

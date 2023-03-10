@@ -17,7 +17,7 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 */
 
-for (let i = 0; i <= 100; i++){
+for (let i = 1; i <= 100; i++){
         
     //cycle stamp condition
     if(i % 3 == 0 && i % 5 == 0){
