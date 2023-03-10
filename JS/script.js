@@ -57,11 +57,9 @@ for (let i = 0; i <= 100; i++){
         `;
     }else {
         console.log(i);
-        //stamp box buzz
+        //stamp number
         document.getElementsById('display').innerHTML +=`
-        <div class="buzz">
-            <p>Buzz</p>
-            <hr>
+        <div class="number">
             <p>${i}</p>
         </div>
         `;
