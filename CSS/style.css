@@ -1,0 +1,17 @@
+:root{
+    --light: #ffffff;
+    --dark: #000000;
+    --bg-wrapper: #083B4C;
+    --bg-numbers: #1389B2;
+    --bg-fizz: #0cd6a1;
+    --bg-buzz: #FFD166;
+    --bg-fizzbuzz: #F0466F;
+}
+
+
+/* wallpaper */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-wrapper);
+}
