@@ -25,11 +25,13 @@ for (let i = 0; i <= 100; i++){
 
         //stamp box fizzbuzz
         document.getElementById('display').innerHTML +=`
-        <div class="fizzbuzz">
-            <p>FizzBuzz</p>
-            <hr>
-            <p>${i}</p>
-        </div>
+        <div class="p-2 text-center fw-semibold fs-5">
+            <div class="fizzbuzz">
+                <p>FizzBuzz</p>
+                <hr>
+                <p>${i}</p>
+            </div>
+        </div>    
         `;
 
     }else if (i % 3 == 0){
@@ -37,10 +39,12 @@ for (let i = 0; i <= 100; i++){
 
         //stamp box fizz
         document.getElementById('display').innerHTML +=`
-        <div class="fizz">
-            <p>Fizz</p>
-            <hr>
-            <p>${i}</p>
+        <div class="p-2 text-center fw-semibold fs-5">
+            <div class="fizz">
+                <p>Fizz</p>
+                <hr>
+                <p>${i}</p>
+            </div>
         </div>
         `;
 
@@ -49,18 +53,22 @@ for (let i = 0; i <= 100; i++){
 
         //stamp box buzz
         document.getElementById('display').innerHTML +=`
-        <div class="buzz">
-            <p>Buzz</p>
-            <hr>
-            <p>${i}</p>
-        </div>
+        <div class="p-2 text-center fw-semibold fs-5">
+            <div class="buzz">
+                <p>Buzz</p>
+                <hr>
+                <p>${i}</p>
+            </div>
+        </div>   
         `;
     }else {
         console.log(i);
         //stamp number
         document.getElementById('display').innerHTML +=`
-        <div class="number">
-            <p>${i}</p>
+        <div class="p-2 text-center fw-semibold fs-5">
+            <div class="number">
+                <p>${i}</p>
+            </div>
         </div>
         `;
     }
