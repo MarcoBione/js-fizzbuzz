@@ -22,7 +22,7 @@
 /* box */
 .box{
     max-width: 1000px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     padding: 2rem;
     margin: 0 auto;
     background: rgba( 255, 255, 255, 0.2 );
