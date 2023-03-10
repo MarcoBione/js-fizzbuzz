@@ -24,7 +24,7 @@ for (let i = 0; i <= 100; i++){
         console.log('FizzBuzz');
 
         //stamp box fizzbuzz
-        document.getElementsById('display').innerHTML +=`
+        document.getElementById('display').innerHTML +=`
         <div class="fizzbuzz">
             <p>FizzBuzz</p>
             <hr>
@@ -36,7 +36,7 @@ for (let i = 0; i <= 100; i++){
         console.log('Fizz');
 
         //stamp box fizz
-        document.getElementsById('display').innerHTML +=`
+        document.getElementById('display').innerHTML +=`
         <div class="fizz">
             <p>Fizz</p>
             <hr>
@@ -48,7 +48,7 @@ for (let i = 0; i <= 100; i++){
         console.log('Buzz');
 
         //stamp box buzz
-        document.getElementsById('display').innerHTML +=`
+        document.getElementById('display').innerHTML +=`
         <div class="buzz">
             <p>Buzz</p>
             <hr>
@@ -58,7 +58,7 @@ for (let i = 0; i <= 100; i++){
     }else {
         console.log(i);
         //stamp number
-        document.getElementsById('display').innerHTML +=`
+        document.getElementById('display').innerHTML +=`
         <div class="number">
             <p>${i}</p>
         </div>
